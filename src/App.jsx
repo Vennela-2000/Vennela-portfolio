@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { motion } from "framer-motion";
+import doraemon from "./assets/doraemon.png";  
 
 /**
  * Doraemon-Steps Portfolio (React + Tailwind + Framer Motion)
@@ -12,7 +13,7 @@ import { motion } from "framer-motion";
  * Put a file named doraemon.png inside the /public folder (project root: public/doraemon.png).
  * If you don't have one yet, the code will still work; just use any placeholder image.
  */
-const DORAEMON_IMG = "/doraemon.png"
+const DORAEMON_IMG = doraemon
 // Place your image at public/doraemon.png
 
 
